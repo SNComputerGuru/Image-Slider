@@ -13,8 +13,8 @@ body {
     align-items: center;
     margin-top: 40px;
     justify-content: space-between;
-    box-shadow: 0px 4px 8px rgba(118, 118, 118, 0.5); /* Adds shadow around the box */
-    border-radius: 20px; /* Keeps the rounded corners */
+    box-shadow: 0px 4px 8px rgba(118, 118, 118, 0.5);
+    border-radius: 20px;
 }
 
 
@@ -40,11 +40,22 @@ body {
 
 #image-container {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: auto;
     max-height: 90%;
     width: auto;
     border-radius: 5px;
+    overflow: hidden;
 }
+
+#image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 
 #next-button:hover {
     box-shadow: none;
