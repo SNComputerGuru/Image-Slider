@@ -16,12 +16,14 @@ imageContainer.src = imageUrls[currentIndex];
 
 nextButton.addEventListener("click", function() {
     currentIndex++;
-    if(currentIndex>length){
+    if(currentIndex>length-1){
         currentIndex=0;
         imageContainer.src = imageUrls[currentIndex];
+        console.log(currentIndex);
     }
     else{
         imageContainer.src = imageUrls[currentIndex];
+        console.log(currentIndex);
     }
 });
 
@@ -31,8 +33,10 @@ previousButton.addEventListener("click", function(){
     if(currentIndex<0){
         currentIndex = length-1;
         imageContainer.src = imageUrls[currentIndex];
+        console.log(currentIndex);
     }
     else{
         imageContainer.src = imageUrls[currentIndex];
+        console.log(currentIndex);
     }
 })
