@@ -1,0 +1,60 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: rgba(240, 240, 240, 0.973);
+    height: 50%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+    box-shadow: 0px 4px 8px rgba(118, 118, 118, 0.5); /* Adds shadow around the box */
+    border-radius: 20px; /* Keeps the rounded corners */
+}
+
+
+#previous-button {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 207);
+    box-shadow: 0px 4px 8px rgba(118, 118, 118, 0.5);
+    margin-left: 5px;
+}
+
+#next-button {
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(207, 207, 207);
+    box-shadow: 0px 4px 8px rgba(118, 118, 118, 0.5);
+    margin-right: 5px;
+}
+
+#image-container {
+    background-color: black;
+    height: auto;
+    width: 75%;
+    border-radius: 5px;
+}
+
+#next-button:hover {
+    box-shadow: none;
+}
+#previous-button:hover {
+    box-shadow: none;
+}
+
+#next-button:active {
+    background-color: rgb(227, 227, 227);
+}
+#previous-button:active {
+    background-color: rgb(227, 227, 227);
+}
