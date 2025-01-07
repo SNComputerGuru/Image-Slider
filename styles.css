@@ -41,7 +41,8 @@ body {
 #image-container {
     background-color: black;
     height: auto;
-    width: 75%;
+    max-height: 90%;
+    width: auto;
     border-radius: 5px;
 }
 
